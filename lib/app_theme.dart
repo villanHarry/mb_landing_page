@@ -107,13 +107,13 @@ ThemeData themeData(ColorScheme colorScheme, Color focusColor) {
     highlightColor: Colors.transparent,
     // accentColor: colorScheme.primary,
     visualDensity: VisualDensity.adaptivePlatformDensity,
-    focusColor: AppColors.purple,
+    focusColor: Color(0xff57BA00),
   );
 }
 
 ColorScheme _lightColorScheme = ColorScheme(
-  primary: AppColors.purple,
-  // primaryVariant: AppColors.purple.shade800,
+  primary: Color(0xff57BA00),
+  // primaryVariant: Color(0xff57BA00).shade800,
   secondary: AppColors.turquoise,
   // secondaryVariant: AppColors.turquoise.shade800,
   background: AppColors.white,

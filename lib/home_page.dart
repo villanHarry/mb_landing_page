@@ -5,10 +5,7 @@ import 'package:tadbir_landing_page/widgets/sections/cta.dart';
 import 'package:tadbir_landing_page/widgets/sections/features.dart';
 import 'package:tadbir_landing_page/widgets/sections/footer.dart';
 import 'package:tadbir_landing_page/widgets/sections/heros.dart';
-import 'package:tadbir_landing_page/widgets/sections/logos_list.dart';
 import 'package:tadbir_landing_page/widgets/sections/singles.dart';
-import 'package:tadbir_landing_page/widgets/sections/stats.dart';
-import 'package:tadbir_landing_page/widgets/sections/testimonials.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -19,7 +16,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
-    final textTheme = Theme.of(context).textTheme;
+    // final textTheme = Theme.of(context).textTheme;
 
     return Scaffold(
       backgroundColor: AppColors.black,

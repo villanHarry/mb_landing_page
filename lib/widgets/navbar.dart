@@ -3,14 +3,13 @@ import 'package:tadbir_landing_page/main.dart';
 import 'package:tadbir_landing_page/responsive.dart';
 import 'package:tadbir_landing_page/services/app_route_name.dart';
 import 'package:tadbir_landing_page/services/app_router.dart';
-import 'package:tadbir_landing_page/services/link.dart';
 import 'package:tadbir_landing_page/values/values.dart';
 import 'dart:js' as js;
 
 class NavBar extends StatelessWidget {
   const NavBar({Key? key}) : super(key: key);
 
-  static const lst = ['Home', 'Terms', 'Privacy'];
+  static const lst = ['Home', 'Terms', 'Privacy', 'Help'];
 
   void login() {
     js.context.callMethod('open', ['https://tadbeer-app.web.app/']);
@@ -180,6 +179,8 @@ class NavBar extends StatelessWidget {
         return AppRouteName.TERMS_ROUTE;
       case "Privacy":
         return AppRouteName.PRIVACY_ROUTE;
+      case "Help":
+        return AppRouteName.SUPPORT_ROUTE;
       default:
         return "";
     }
@@ -193,6 +194,8 @@ class NavBar extends StatelessWidget {
         return "Terms";
       case AppRouteName.PRIVACY_ROUTE:
         return "Privacy";
+      case AppRouteName.SUPPORT_ROUTE:
+        return "Help";
       default:
         return "";
     }
@@ -278,8 +281,8 @@ class Logo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final textTheme = Theme.of(context).textTheme;
-    final size = MediaQuery.of(context).size;
+    // final textTheme = Theme.of(context).textTheme;
+    // final size = MediaQuery.of(context).size;
 
     return Row(
       mainAxisSize: MainAxisSize.min,

@@ -3,4 +3,5 @@ class AppRouteName {
   static const HOMEPAGE_ROUTE = "/";
   static const PRIVACY_ROUTE = "/Privacy";
   static const TERMS_ROUTE = "/Terms";
+  static const SUPPORT_ROUTE = "/Help";
 }

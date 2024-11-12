@@ -3,6 +3,7 @@ import 'package:tadbir_landing_page/error_page.dart';
 import 'package:tadbir_landing_page/home_page.dart';
 import 'package:tadbir_landing_page/privacy_page.dart';
 import 'package:tadbir_landing_page/services/app_route_name.dart';
+import 'package:tadbir_landing_page/support_page.dart';
 import 'package:tadbir_landing_page/term_page.dart';
 
 String route = "";
@@ -25,6 +26,9 @@ class AppRouter {
 
           case AppRouteName.TERMS_ROUTE:
             return TermsPage();
+
+          case AppRouteName.SUPPORT_ROUTE:
+            return SupportPage();
 
           default:
             return ErrorPage();
