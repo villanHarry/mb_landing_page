@@ -82,7 +82,8 @@ class Footer extends StatelessWidget {
                       ),
                       SizedBox(height: size.width < 600 ? 12 : 24),
                       Text(
-                        '© 2024 My Backyard USA. All rights reserved',
+                        'Copyright © 2024 AVS Partners LLC. All Rights Reserved.\nMy Backyard USA is a AVS Partners LLC Company',
+                        textAlign: TextAlign.start,
                         style: textTheme.bodyText2!.copyWith(
                           color: AppColors.gray.shade300,
                           fontSize: size.width < 600
