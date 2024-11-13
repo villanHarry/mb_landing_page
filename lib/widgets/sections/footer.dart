@@ -82,7 +82,7 @@ class Footer extends StatelessWidget {
                       ),
                       SizedBox(height: size.width < 600 ? 12 : 24),
                       Text(
-                        '© 2024 Tadbir. All rights reserved',
+                        '© 2024 My Backyard USA. All rights reserved',
                         style: textTheme.bodyText2!.copyWith(
                           color: AppColors.gray.shade300,
                           fontSize: size.width < 600
