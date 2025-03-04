@@ -66,7 +66,7 @@ class Heros extends StatelessWidget {
             children: [
               Text('Best Offers', style: textTheme.headline2),
               // const SizedBox(height: 5),
-              Text('Wihtin Your Reach.', style: textTheme.headline2),
+              Text('Within Your Community.', style: textTheme.headline2),
             ],
           ),
           desktop: Column(
@@ -75,7 +75,7 @@ class Heros extends StatelessWidget {
             children: [
               Text('Best Offers', style: textTheme.headline1),
               // const SizedBox(height: 30),
-              Text('Wihtin Your Reach.', style: textTheme.headline1),
+              Text('Within Your Community.', style: textTheme.headline1),
             ],
           ),
         ),
